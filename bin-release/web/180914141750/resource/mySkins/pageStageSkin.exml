@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageStageSkin" width="640" height="1040" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="animateGroup1">
+			<tween:TweenItem target="{rect_red}">
+				<tween:Set/>
+				<tween:To duration="4000">
+					<tween:props>
+						<e:Object height="{1040}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="165d5eed710" ></w:Config>
+	<e:Image id="bg_jpg" width="640" height="1040" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="bg_jpg"/>
+	<e:Rect id="rect_red" width="640" height="0" x="0" y="0" fillColor="0xe80909" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="btn" label="点击" x="496.64" y="920.82"/>
+</e:Skin>

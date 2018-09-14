@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageMainSkin" width="640" height="1040" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="165d611043d" ></w:Config>
+	<e:Rect width="150" height="101" x="245" y="236" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x660b0b"/>
+</e:Skin>
